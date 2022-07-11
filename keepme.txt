@@ -1,6 +1,9 @@
 echo "# sqlsql" >> README.md
-git init
-git add README.md
+
+// have you downloaded and installed git yet? then
+
+git init // create a local repo
+git add . // not needed coz i have this text file
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/arnoldgr/sqlsql.git
